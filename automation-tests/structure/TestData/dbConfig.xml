@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+
+    <!-- this section is for tunneling -->
+    <ssh>
+
+        <host>o9-stg-db.c4141swzpdyv.us-west-2.rds.amazonaws.com</host>
+            <!-- for staging  o9-stg-db.c4141swzpdyv.us-west-2.rds.amazonaws.com -->
+            <!-- for dev  devdb.c4141swzpdyv.us-west-2.rds.amazonaws.com -->
+
+        <server>34.211.152.207</server>  <!-- server for tunneling, dev: 35.163.91.234 ,stg: 34.211.152.207 -->
+
+        <key>C:\Users\ramiro\.ssh\id_rsa</key> <!-- absolute path for the private key -->
+
+        <rhost>10.30.13.169</rhost> <!-- server rhost dev: 10.20.100.210 ,stg: 10.30.13.169 -->
+
+        <paraphrase>12Deabril</paraphrase> <!-- leave empty if the key does not have a paraphrase -->
+    </ssh>
+
+    <!-- this section is for the database usage -->
+    <dbconfig>
+
+        <database>vienna_1</database>
+
+        <username>vienna</username>
+
+        <password>Elysium9</password>
+
+    </dbconfig>
+
+</config>
+

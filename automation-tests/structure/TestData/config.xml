@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AppArgs>
+
+    <!-- ENVIRONMENT CONFIGURATIONS -->
+    <environment>qa</environment>
+
+    <!-- RUNNER CONFIGURATIONS -->
+    <browser>grid</browser> <!-- chrome / stack / headless-chrome / grid -->
+    <timeout>35</timeout> <!-- this is how much the driver will wait until declaring the element is found -->
+    <pageload>35</pageload> <!-- this is how much the driver will wait until declaring the page is not working -->
+    <explicit>500</explicit> <!-- this is for adding more timeout to the explicit waits -->
+
+    <!-- email user and password the rfq emails and etc, do not change unless sure -->
+    <emailUser>admin+qa1@example.com</emailUser>
+    <emailPassword>Password1!</emailPassword>
+
+    <grid>34.218.27.135:4444/wd/hub</grid>
+</AppArgs>
